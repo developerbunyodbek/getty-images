@@ -120,3 +120,34 @@ body {
 .more:hover {
   background-color: #683aa3;
 }
+
+@media (max-width: 600px) {
+  .gallery img {
+    width: 100%;
+    position: relative;
+    right: 0;
+  }
+  .search-form  {
+    width: 100%;
+  }
+  .info {
+    font-size: 30px;
+  }
+  .title {
+    padding-top: 0;
+    font-size: 36px;
+  }
+  .header {
+    padding: 2rem;
+  }
+  .search-input {
+    font-size: 1rem;
+  }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+}
